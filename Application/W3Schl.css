@@ -1,0 +1,169 @@
+
+
+body{
+    background-color: grey;
+    font-family: sans-serif;
+    
+}
+header{
+   
+    
+    height: 100px;
+    background-color: grey;
+    padding: 20px;
+    text-align: center;
+    position:sticky;
+    top:0;
+   
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+nav{
+    display: inline-block;
+    
+    
+}
+.topnav {
+    overflow: hidden;
+    position:sticky;
+    top:0;
+    display:block;
+  }
+  
+ section {
+    height: 600px;
+}
+h1{
+    
+    text-align:center;
+    color: #04AA6D;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px white;
+}
+
+.Login{
+    border : 5px solid white;
+    border-radius: 12px;
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    float: right;
+    
+}
+.SignUp{
+    border : 5px solid white;
+    border-radius: 12px;
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    float: right;
+   
+}
+
+p{
+    display: inline;  
+}
+p> a:hover{
+    background-color: #04AA6D;
+    
+}
+h3{
+    text-indent: 80px;
+    text-align: justify;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+   
+  }
+li{
+    float:left;
+    
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: #04AA6D;
+  }
+[class*="list"]{
+    text-decoration: none;
+    background-color:#333;
+   
+}
+.Tutor {
+    position: relative;
+    display: inline-block;
+  }
+.Tutor_Content {
+    display: none; 
+    /*position: absolute;*/
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: -1;
+    overflow: hidden;
+    border-radius:5px;
+     
+  }
+  .Tutor_Content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .Tutor:hover .Tutor_Content {
+    display: block;
+  }
+div#Gallery{
+    background-color: gray;
+    color: white;
+}
+div#Gallery img{
+    margin: 5px;
+    
+    float: none;
+    width: 200px;
+   
+  }
+  
+  
+  #myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 2%;
+    width:50px;
+    height:50px;
+    font-size: 12px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 4px;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #7dbbf1;
+}
+
+  #myBtn > a{
+    text-decoration: none;
+   
+
+  }

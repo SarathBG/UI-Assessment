@@ -1,0 +1,12 @@
+hr {
+    color: black;
+  }
+table{
+border-spacing: 30px;
+}
+
+.myform {
+border: 2px outset black;
+background-color: lightblue;
+text-align: left;
+}
